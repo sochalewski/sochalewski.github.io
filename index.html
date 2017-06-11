@@ -1,101 +1,298 @@
-<!DOCTYPE HTML>
-<!--
-	Identity by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Piotr Sochalewski</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-loading">
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Piotr Sochalewski – iOS Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-							<h1>Piotr Sochalewski</h1>
-							<p>iOS Developer<br />living in Wroclaw, Poland</p>
-						</header>
-						<!--
-						<hr />
-						<h2>Extra Stuff!</h2>
-						<form method="post" action="#">
-							<div class="field">
-								<input type="text" name="name" id="name" placeholder="Name" />
-							</div>
-							<div class="field">
-								<input type="email" name="email" id="email" placeholder="Email" />
-							</div>
-							<div class="field">
-								<div class="select-wrapper">
-									<select name="department" id="department">
-										<option value="">Department</option>
-										<option value="sales">Sales</option>
-										<option value="tech">Tech Support</option>
-										<option value="null">/dev/null</option>
-									</select>
-								</div>
-							</div>
-							<div class="field">
-								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-							</div>
-							<div class="field">
-								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
-							</div>
-							<div class="field">
-								<label>But are you a robot?</label>
-								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
-								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
-							</div>
-							<ul class="actions">
-								<li><a href="#" class="button">Get Started</a></li>
-							</ul>
-						</form>
-						<hr />
-						-->
-						<footer>
-							<ul class="icons">
-								<li><a href="https://itunes.apple.com/us/developer/piotr-sochalewski/id687530224" class="fa-apple">App Store</a></li>
-								<li><a href="https://www.linkedin.com/in/piotr-sochalewski-496258108" class="fa-linkedin">LinkedIn</a></li>
-								<li><a href="https://github.com/sochalewski" class="fa-github">GitHub</a></li>
-								<li><a href = "mailto:spdevsupportATDOMDOTcom"
-   onclick = "this.href=this.href
-	 						.replace(/sp/,'ps')
-              .replace(/AT/,'&#64;')
-							.replace(/DOM/,'icloud')
-              .replace(/DOT/,'&#46;')" class="fa-envelope">Mail</a></li>
-							</ul>
-						</footer>
-					</section>
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Commercial Projects</a>
+            </li>
+            <li>
+                <a href="#projects">My Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Jane Doe</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Piotr Sochalewski</h1>
+            <h2>iOS Developer</h2>
+        </div>
+        <!-- End #lead-content -->
 
-			</div>
+        <div id="lead-overlay"></div>
 
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
 
-	</body>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am an iOS Developer from Poland. I currenty live in Wroclaw, Lower Silesian Voivodeship. I have been working as iOS Developer for over two years. I love Swift, like Rx, and hate CoreData (Realm, God bless you!).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Commercial Projects</h2>
+        <div id="experience-timeline">
+            <div data-date="June 2017 – current">
+                <h3>OhMiBod Remote</h3>
+                <h4>iOS Developer</h4>
+                <p>
+                    The remote app for wireless OhMiBod vibrator.
+                    <br /><br />
+                    #bluetooth #customUI #api #swift
+                </p>
+            </div>
+
+            <div data-date="March 2017 – current">
+                <h3>[white label for a while]</h3>
+                <h4>Product Owner</h4>
+                <p>
+                    Really can't say right now.
+                    <br /><br />
+                    #scrum #productowner #greatexperience
+                </p>
+            </div>
+
+            <div data-date="October 2016 – March 2017">
+                <h3>Skybuds</h3>
+                <h4>iOS Developer</h4>
+                <p>
+                    The companion app for truly wireless Skybuds earpods.
+                    <br /><br />
+                    #ble #bluetooth #api #rxswift #swift
+                </p>
+            </div>
+
+            <div data-date="May 2016 – September 2016">
+                <h3>Giphy CAM</h3>
+                <h4>iOS Developer</h4>
+                <p>
+                    The GIF camera with totally cool features.
+                    <br /><br />
+                    #bugfixing #objc
+                </p>
+            </div>
+
+            <div data-date="August 2015 – February 2016">
+                <h3>Edenred – Twoja Karta</h3>
+                <h4>iOS Developer</h4>
+                <p>
+                  The essential phone app for Compliments Card, Incentive Award Card & Ticket Restaurant® holders from Edenred Poland.
+                  <br /><br />
+                  #api #coredata #objc
+                </p>
+            </div>
+        </div>
+        <br /><br />…and more – I do as well maintenance, quick bug fixing, etc.
+    </div>
+    <!-- End #experience -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">My Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/smashthecode.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Smash the Code</h3>
+                        <p>
+                          Do you like the classic Mastermind™ game? Then you'll love the brand new Smash the Code.<br /><br />
+                          This game has the best features from classic board game and paper-and-pencil Bulls and cows. That means you can play Smash the Code on your own or against a friend sitting next to you.
+                        </p>
+                        <a href="https://itunes.apple.com/us/app/smash-the-code/id728576360?mt=8" target="_blank">App Store</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/vault.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Vault</h3>
+                        <p>
+                          Don’t risk your photos, videos or notes being compromised or deleted by someone! Download Vault and keep your files hidden.<br /><br />
+                          Vault locks your private pictures, secret videos and important notes behind a PIN pad or Touch ID authentication.
+                        </p>
+                        <a href="https://itunes.apple.com/us/app/vault-keep-your-photos-videos-and-notes-hidden/id1130735487?mt=8" target="_blank">App Store</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/scrabbdict.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Scrabbdict</h3>
+                        <p>
+                          Scrabbdict is a simple and beautiful word checker for games like Scrabble™. Quicker and more functional than a dictionary. With Scrabbdict, you can also find words that can be formed with tiles you've got including blanks. All of these without requiring an internet connection!
+                        </p>
+                        <a href="https://itunes.apple.com/us/app/scrabbdict/id687530221?mt=8" target="_blank">App Store</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/bloodypressure.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Bloody Pressure</h3>
+                        <p>
+                          Bloody Pressure is a simple and functional blood pressure management app that lets you record, track and analyze your blood pressure measurements.<br /><br />
+                          The easiest way to monitor your health!
+                        </p>
+                        <a href="https://itunes.apple.com/us/app/bloody-pressure/id687681144?mt=8" target="_blank">App Store</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/leadball.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>leadball</h3>
+                        <p>
+                          "What do you get when you have a little blue ball, a bunch of special tiles, and a checkered flag?<br />A wickedly addictive game called leadball!"<br /><br />
+                          Erm, maybe… It is just my demo project that was my first approach to Unity3D. You may find some bugs and there is no chance to fix them, because I lost the source code :(
+                        </p>
+                        <a href="https://itunes.apple.com/us/app/leadball/id970211704?mt=8" target="_blank">App Store</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>iOS</li>
+            <li>Swift</li>
+            <li>Objective-C</li>
+            <li>RxSwift</li>
+            <li>Realm</li>
+            <li>Xcode</li>
+            <li>Git</li>
+            <li>Scrum</li>
+            <li>JIRA</li>
+            <li>Sketch</li>
+            <li>Public Speaking</li>
+            <li>Teamwork</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/psdevsupport@icloud.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2017 Piotr Sochalewski
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://itunes.apple.com/us/developer/piotr-sochalewski/id687530224" target="_blank"><i class="fa fa-apple" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/sochalewski" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/piotr-sochalewski-496258108/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:spdevsupportATDOMDOTcom" onclick = "this.href=this.href.replace(/sp/,'ps').replace(/AT/,'&#64;').replace(/DOM/,'icloud').replace(/DOT/,'&#46;')" ><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
 </html>
