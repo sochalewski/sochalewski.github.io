@@ -257,13 +257,21 @@
     <!-- End #skills -->
 
     <div id="contact">
-        <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/psdevsupport@icloud.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
+            <h2 class="heading">Get in Touch</h2>
+            <form action="https://formspree.io/f/xldqnzqp" class="fs-form" target="_top" method="POST">
+                <div class="fs-field">
+                    <input class="fs-input" id="name" name="name" placeholder="Your name" required />
+                </div>
+                <div class="fs-field">
+                    <input class="fs-input" id="email" name="email" placeholder="Your email" required />
+                </div>
+                <div class="fs-field">
+                    <textarea class="fs-textarea" id="message" name="message" placeholder="Your message" required></textarea>
+                </div>
+                <div class="fs-button-group">
+                    <button class="fs-button" type="submit">Send</button>
+                </div>
             </form>
         </div>
         <!-- End #contact-form -->
