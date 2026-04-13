@@ -1,66 +1,73 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="Content-Style-Type" content="text/css">
-    <title>Privacy Policy for Vault – Keep your photos, videos and notes hidden</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy Policy for Vault: Private Photos & Videos</title>
     <style type="text/css">
-    p, li { font: 15.0px 'Helvetica Neue' }
-    h2, h3 { font-family: verdana }
+    body { margin: 24px; max-width: 860px; font: 15px/1.5 "Helvetica Neue", Arial, sans-serif; color: #222; }
+    h2, h3 { font-family: Verdana, sans-serif; }
+    li { margin: 6px 0; }
     </style>
 </head>
 <body>
-    <h2>Privacy Policy for Vault – Keep your photos, videos and notes hidden</h2>
+    <h2>Privacy Policy for Vault: Private Photos & Videos</h2>
+    <p><strong>Last updated: April 13, 2026</strong></p>
 
-    <h3>Last updated: June 09, 2020</h3>
+    <h3>Controller and contact</h3>
+    <p>This privacy policy applies to the Vault mobile application ("Application") created and operated by Piotr Sochalewski. For privacy questions or requests, contact: <a href="mailto:psdevsupport@icloud.com">psdevsupport@icloud.com</a>.</p>
 
-    <p>This privacy policy governs your use of the software application Vault – Keep your photos, videos and notes hidden (“Application”) for mobile devices that was created by Piotr Sochalewski.</p>
+    <h3>Summary</h3>
+    <p>The Application is designed to store photos, videos, notes, and related private content locally on your device. Piotr Sochalewski does not operate a server for your Vault content and does not have access to the photos, videos, notes, PIN, or biometric data stored in the Application. The Application uses limited third-party services for analytics, crash diagnostics, and purchase entitlement management.</p>
 
-    <h3>What information does the Application obtain and how is it used?</h3>
-
-    <h3>User Provided Information</h3>
-    <p>The Application does not require you to provide any specific information.</p>
-
-    <h3>Automatically Collected Information</h3>
-    <p>The Application may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile devices unique device ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browsers you use, and information about the way you use the Application.</p>
-    <p>In order to provide continuous improvement, the Application uses the crash reporting service Google Crashlytics. By agreeing with this privacy policy you also agree with the privacy policy of the Google Crashlytics service. For more information about the data collected by the Google Crashlytics service, please refer to the Google Crashlytics privacy policy under the following address: <a href="https://firebase.google.com/terms/crashlytics">https://firebase.google.com/terms/crashlytics</a></p>
-    <p>In order to provide continuous improvement, the Application uses the analytics service Google Analytics. By agreeing with this privacy policy you also agree with the privacy policy of the Google Analytics service. For more information about the data collected by the Google Analytics service, please refer to the Google Analytics privacy policy under the following address: <a href="https://firebase.google.com/terms/analytics">https://firebase.google.com/terms/analytics</a></p>
-
-    <h3>Does the Application collect precise real time location information of the device?</h3>
-    <p>This Application does not collect precise information about the location of your mobile device.</p>
-
-    <h3>Do third parties see and/or have access to information obtained by the Application?</h3>
-    <p>Only aggregated, anonymized data is periodically transmitted to external services to help us improve the Application and our service. This includes the data automatically sent to the crash reporting service Google Crashlytics. For more information about the data collected by this service, please refer to the Google Crashlytics privacy policy under the following web address: <a href="https://firebase.google.com/terms/crashlytics">https://firebase.google.com/terms/crashlytics</a></p>
-    <p>In addition, the Application periodically transmits data to the Google Analytics service. For more information about the data collected by this service, please refer to the Google Analytics privacy policy under the following web address: <a href="https://firebase.google.com/terms/analytics">https://firebase.google.com/terms/analytics</a></p>
-
-    <p>We will share your information with third parties only in the ways that are described in this privacy statement.</p>
-    <p>We may disclose User Provided and Automatically Collected Information:</p>
+    <h3>Information processed in the Application</h3>
     <ul>
-        <li>as required by law, such as to comply with a subpoena, or similar legal process;</li>
-        <li>when we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;</li>
-        <li>with our trusted services providers who work on our behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.</li>
+        <li><strong>Vault content stored locally.</strong> Photos, videos, notes, thumbnails, albums, favorites, import dates, and related metadata are stored on your device. Photos and videos may include metadata already present in the media file, such as creation date, camera information, and location metadata embedded in the file. This content is used to show, organize, protect, share, export, or delete your Vault items.</li>
+        <li><strong>PIN and biometric unlock settings.</strong> The Application stores a PBKDF2 hash of your PIN with a per-install salt, not the plain text PIN. Face ID and Touch ID authentication are handled by iOS through LocalAuthentication; the Application receives only the authentication result and does not receive or store biometric templates.</li>
+        <li><strong>Camera, microphone, and Photo Library permissions.</strong> The Application asks for camera and microphone access when you take photos or videos in the Application. It asks for Photo Library access when you import items from or export items to your Photo Library. If you enable deletion of imported items, the Application may ask iOS to delete the selected source assets from your Photo Library after import.</li>
+        <li><strong>Intruder Detector photos.</strong> If the paid Intruder Detector feature is active and you enable it, the Application may take a photo after successful or unsuccessful unlock attempts. These photos are stored locally in the Application's documents directory with iOS file protection and are automatically removed after 14 days.</li>
+        <li><strong>Analytics data.</strong> The Application uses Google Analytics for Firebase to understand basic product interaction. Custom analytics events include app unlock method, photo or video added, album added or removed, album viewed, and asset sharing type. Custom analytics events do not send the content of your photos, videos, or notes.</li>
+        <li><strong>Crash and diagnostics data.</strong> The Application uses Firebase Crashlytics to diagnose crashes and improve stability. Crashlytics may process crash traces, app version, operating system version, device model, installation identifiers, timestamps, and other diagnostic information needed to understand a crash.</li>
+        <li><strong>Purchase entitlement data.</strong> The Application uses RevenueCat to manage purchases, restore purchases, and check whether paid features such as Intruder Detector are active. RevenueCat may process purchase and entitlement status, anonymous app user identifiers, product identifiers, device/app information, and related transaction information needed to provide the purchase functionality.</li>
+        <li><strong>Support communications.</strong> If you contact support by email, your email address and message are processed to respond to your request.</li>
     </ul>
 
-    <h3>What are my opt-out rights?</h3>
-    <p>You can stop all collection of information by the Application easily by uninstalling the Application. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.</p>
+    <h3>Information the Application does not process</h3>
+    <p>The Application does not sell personal data and does not use third-party advertising SDKs. The Application does not upload your Vault photos, videos, notes, or PIN to Piotr Sochalewski's servers. Your device settings, operating system, Apple services, backups, and any share/export actions you choose may still affect where your data is stored outside the Application.</p>
 
-    <h3>Data Retention Policy, Managing Your Information</h3>
-    <p>We do not retain any User Provided data. We do not retain retain Automatically Collected information.
-    <p>If you would like the information collected by Google Crashlytics crash reporting service to be deleted, please refer to the Google Crashlytics privacy policy under the following web address: <a href="https://firebase.google.com/terms/crashlytics">https://firebase.google.com/terms/crashlytics</a><br />If you would like the information collected by the Google Analytics service to be deleted, please refer to the Google Analytics privacy policy under the following web address: <a href="https://firebase.google.com/terms/analytics">https://firebase.google.com/terms/analytics</a></p>
+    <h3>Purposes and legal bases</h3>
+    <ul>
+        <li><strong>Providing app functionality.</strong> Vault content, local settings, permissions, PIN hash, biometric unlock result, and purchase entitlement status are processed to provide the features you request. The legal basis is performance of the app functionality requested by you and, where applicable, legitimate interests in operating the Application.</li>
+        <li><strong>Analytics and product improvement.</strong> Analytics data is processed to understand usage and improve the Application. The legal basis is legitimate interests in maintaining and improving the Application, unless consent is required by applicable law.</li>
+        <li><strong>Crash diagnostics and security.</strong> Diagnostics data is processed to find and fix crashes and maintain app reliability. The legal basis is legitimate interests in keeping the Application secure and reliable.</li>
+        <li><strong>Purchase management.</strong> Purchase entitlement data is processed to provide, validate, and restore paid functionality. The legal basis is performance of purchase-related functionality and legitimate interests in preventing misuse and maintaining paid features.</li>
+        <li><strong>Support.</strong> Support communications are processed to respond to your request. The legal basis is legitimate interests in providing support and, where applicable, taking steps requested by you.</li>
+        <li><strong>Legal compliance.</strong> Data may be processed when necessary to comply with applicable legal obligations.</li>
+    </ul>
+
+    <h3>Third-party services</h3>
+    <ul>
+        <li><strong>Google Firebase / Google Analytics for Firebase / Firebase Crashlytics.</strong> Used for analytics and crash diagnostics. More information: <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a>, <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics terms</a>, and <a href="https://firebase.google.com/terms/analytics">Google Analytics for Firebase terms</a>.</li>
+        <li><strong>RevenueCat.</strong> Used for purchase entitlement management and purchase restoration. More information: <a href="https://www.revenuecat.com/privacy/">RevenueCat Privacy Policy</a>.</li>
+        <li><strong>Apple services.</strong> The Application runs on iOS and uses Apple frameworks for Photo Library, camera/microphone permission prompts, Face ID/Touch ID authentication, and App Store purchases. More information: <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.</li>
+    </ul>
+
+    <h3>Sharing and international transfers</h3>
+    <p>Data is shared with the service providers listed above only as needed to provide analytics, diagnostics, Apple platform functionality, and purchase entitlement management. Google, RevenueCat, and Apple may process data in countries other than your country of residence. Where required, transfers rely on mechanisms made available by those providers, such as applicable data processing terms, standard contractual clauses, or other recognized transfer mechanisms.</p>
+
+    <h3>Retention</h3>
+    <p>Vault content and local settings remain on your device until you delete them in the Application, delete app data, or uninstall the Application. Intruder Detector photos are automatically removed after 14 days. Support emails are retained only as long as needed to handle the request and any related follow-up. Purchase records are retained by Apple and RevenueCat according to their policies and as needed to provide purchase restoration and entitlement checks. Firebase Crashlytics retains crash reports and associated identifiers for a limited period described by Firebase, currently 90 days before deletion begins. Google Analytics for Firebase data is retained according to the Firebase/Google Analytics retention settings and policies.</p>
+
+    <h3>Your choices and rights</h3>
+    <p>You can delete Vault photos, videos, notes, albums, and Intruder Detector photos in the Application. You can manage camera, microphone, Photo Library, Face ID, and Touch ID permissions in iOS Settings. You can stop further local processing by uninstalling the Application. If you are in the EU/EEA, UK, or another jurisdiction with privacy rights, you may have rights to request access, correction, deletion, restriction, portability, objection, or withdrawal of consent where processing is based on consent. You may also have the right to lodge a complaint with your local data protection authority. To exercise rights concerning data controlled by Piotr Sochalewski, contact <a href="mailto:psdevsupport@icloud.com">psdevsupport@icloud.com</a>.</p>
 
     <h3>Children</h3>
-    <p>We do not use the Application to knowingly solicit data from or market to children under the age of 13.</p>
+    <p>The Application is not directed to children and is not used to knowingly solicit personal data from children.</p>
 
     <h3>Security</h3>
-    <p>We are concerned about safeguarding the confidentiality of your information. We provide physical, electronic, and procedural safeguards to protect information we process and maintain. For example, we limit access to this information to authorized employees and contractors who need to know that information in order to operate, develop or improve our Application. Please be aware that, although we endeavor provide reasonable security for information we process and maintain, no security system can prevent all potential security breaches.</p>
-    <p>For more information related to the security of the information collected by the Google Crashlytics crash reporting service, please refer to the Google Crashlytics privacy policy under the following web address: <a href="https://firebase.google.com/terms/crashlytics">https://firebase.google.com/terms/crashlytics</a><br />For more information related to the security of the information collected by the Google Analytics service, please refer to the Google Analytics privacy policy under the following web address: <a href="https://firebase.google.com/terms/analytics">https://firebase.google.com/terms/analytics</a></p>
+    <p>The Application uses local access controls, PIN protection, iOS biometric authentication where enabled, PBKDF2 PIN hashing, and iOS file protection for saved media where implemented. No security method is perfect, and device-level security also depends on your device settings and Apple platform protections.</p>
 
     <h3>Changes</h3>
-    <p>We reserve the right to make changes to this privacy policy at any time by giving notice to its Users on this page. It is strongly recommended to check this page often, referring to the date of the last modification listed at the bottom. If a User objects to any of the changes to the Policy, the User must cease using the Application.</p>
-
-    <h3>Your Consent</h3>
-    <p>By using the Application, you are consenting to us using the collected information as described in this Privacy Policy.</p>
-
-    <h3>Contact us</h3>
-    <p>If you have any questions regarding privacy while using the Application, or have questions about our practices, please contact us via email at psdevsupport@icloud.com.</p>
+    <p>This policy may be updated from time to time. The "Last updated" date above shows when the current version was published.</p>
 </body>
 </html>
